@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 
 
-class TextFieldCustom extends StatelessWidget {
+class Custom_Text_Field extends StatelessWidget {
   final String? labelText;
   final TextEditingController controller;
   final String? Function(String?)? validator;
@@ -39,7 +39,7 @@ class TextFieldCustom extends StatelessWidget {
 
   static const Color _textFieldThemeColor = Color(0xff3d475a);
 
-  const TextFieldCustom({
+  const Custom_Text_Field({
     this.textAlign,
     this.readOnly = false,
     this.inputFormatters,
@@ -133,13 +133,10 @@ class TextFieldCustom extends StatelessWidget {
               ? null
               : GestureDetector(
             onTap: onTapPrefixIcon!,
-            child: Padding(
-              padding: const EdgeInsets.only(left: 10),
-              child: Icon(
-                prefixIconData,
-                size: 30,
-                color: prefixIconColor,
-              ),
+            child: Icon(
+              prefixIconData,
+              size: 30,
+              color: prefixIconColor,
             ),
           )),
           focusedBorder: OutlineInputBorder(

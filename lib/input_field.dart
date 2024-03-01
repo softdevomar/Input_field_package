@@ -1,7 +1,3 @@
 library input_field;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/Custom_Input_Field.dart';

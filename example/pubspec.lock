@@ -75,6 +75,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  input_field:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   lints:
     dependency: transitive
     description:
@@ -186,3 +193,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.5 <4.0.0"
+  flutter: ">=1.17.0"

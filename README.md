@@ -62,7 +62,7 @@ To use the `input_field` package in your Flutter project, follow these steps:
 5. Import the package in your Dart files where you want to use it:
 
     ```dart
-    import 'package:input_field/input_field.dart';
+    import 'package:input_field/custom_input_field.dart';
     ```
 
 6. Now, you can start using the components provided by the `input_field` package in your Flutter application.

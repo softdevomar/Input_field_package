@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:input_field/input_field.dart';
+import 'package:input_field/custom_input_field.dart';
 
 void main() {
   runApp(const MyApp());
